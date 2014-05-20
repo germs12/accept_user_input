@@ -5,7 +5,8 @@ class DashboardController < ApplicationController
   end
 
   def submit
-    call_api(params['user_input']['user_input'])
+    binding.pry
+    call_api(params['user_input_form']['user_input'])
   end
 
   def call_api(input)
