@@ -6,6 +6,7 @@ class DashboardController < ApplicationController
 
   def submit
     call_api(params['user_input_form']['user_input'])
+    render :action => 'index'
   end
 
   def call_api(input)
