@@ -949,3 +949,165 @@ Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2014-05-20 14:16:19 -
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-20 14:16:19 -0400
+
+
+Started GET "/submit_user_input" for 127.0.0.1 at 2014-05-20 14:20:26 -0400
+
+ActionController::RoutingError (No route matches [GET] "/submit_user_input"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/jthullbery/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/jthullbery/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/jthullbery/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/jthullbery/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/jthullbery/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /Users/jthullbery/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (9.0ms)
+  Rendered /Users/jthullbery/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (27.3ms)
+
+
+Started POST "/submit_user_input" for 127.0.0.1 at 2014-05-20 14:20:30 -0400
+Processing by DashboardController#submit as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gC8EHS+YB+LRrMVqEAw51kUy7hteFFgFq9wNvbHmG58=", "user_input"=>{"user_input"=>""}, "commit"=>"Save User input"}
+  Rendered dashboard/submit.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 64ms (Views: 23.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2014-05-20 14:20:30 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-20 14:20:30 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-20 14:20:30 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-20 14:20:30 -0400
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2014-05-20 14:20:30 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-20 14:20:30 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-20 14:20:30 -0400
+
+
+Started POST "/submit_user_input" for 127.0.0.1 at 2014-05-20 14:20:41 -0400
+Processing by DashboardController#submit as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gC8EHS+YB+LRrMVqEAw51kUy7hteFFgFq9wNvbHmG58=", "user_input"=>{"user_input"=>"asdf"}, "commit"=>"Save User input"}
+  Rendered dashboard/submit.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2014-05-20 14:20:41 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-20 14:20:41 -0400
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2014-05-20 14:20:41 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-20 14:20:41 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-20 14:20:41 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-20 14:20:41 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-20 14:20:41 -0400
+
+
+Started POST "/submit_user_input" for 127.0.0.1 at 2014-05-20 14:25:33 -0400
+Processing by DashboardController#submit as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gC8EHS+YB+LRrMVqEAw51kUy7hteFFgFq9wNvbHmG58=", "user_input"=>{"user_input"=>"asdf"}, "commit"=>"Save User input"}
+Completed 500 Internal Server Error in 1ms
+
+URI::InvalidURIError (bad URI(is not URI?): https://api.nutritionix.com/v1_1/search/{"user_input"=>"asdf"}?results=0:01&fields=item_name,brand_name,item_id,nf_calories,nf_carbohydrates,nf_protein,nf_carbs&appId=ceadf6d2&appKey=d8372703aeb94b7035ce12d07f61ba84):
+  app/controllers/dashboard_controller.rb:18:in `call_api'
+  app/controllers/dashboard_controller.rb:8:in `submit'
+
+
+  Rendered /Users/jthullbery/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/jthullbery/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/jthullbery/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/jthullbery/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.0ms)
+
+
+Started POST "/submit_user_input" for 127.0.0.1 at 2014-05-20 14:26:28 -0400
+Processing by DashboardController#submit as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gC8EHS+YB+LRrMVqEAw51kUy7hteFFgFq9wNvbHmG58=", "user_input"=>{"user_input"=>"asdf"}, "commit"=>"Save User input"}
+  Rendered dashboard/submit.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 345ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2014-05-20 14:26:28 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-20 14:26:28 -0400
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2014-05-20 14:26:28 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-20 14:26:28 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-20 14:26:28 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-20 14:26:28 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-20 14:26:28 -0400
+
+
+Started POST "/submit_user_input" for 127.0.0.1 at 2014-05-20 14:26:42 -0400
+Processing by DashboardController#submit as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gC8EHS+YB+LRrMVqEAw51kUy7hteFFgFq9wNvbHmG58=", "user_input"=>{"user_input"=>"lemon"}, "commit"=>"Save User input"}
+  Rendered dashboard/submit.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 374ms (Views: 3.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2014-05-20 14:26:43 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-20 14:26:43 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-20 14:26:43 -0400
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2014-05-20 14:26:43 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-20 14:26:43 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-20 14:26:43 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-20 14:26:43 -0400
