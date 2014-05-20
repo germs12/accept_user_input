@@ -1111,3 +1111,168 @@ Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-20 14:26:43 
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-20 14:26:43 -0400
+
+
+Started GET "/accept_user_input?user_input=strawberry" for 127.0.0.1 at 2014-05-20 14:39:09 -0400
+Processing by DashboardController#index as HTML
+  Parameters: {"user_input"=>"strawberry"}
+  Rendered dashboard/index.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 557ms (Views: 34.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2014-05-20 14:39:10 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-20 14:39:10 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-20 14:39:10 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-20 14:39:10 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-20 14:39:10 -0400
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2014-05-20 14:39:10 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-20 14:39:10 -0400
+
+
+Started POST "/submit_user_input" for 127.0.0.1 at 2014-05-20 14:39:12 -0400
+Processing by DashboardController#submit as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gC8EHS+YB+LRrMVqEAw51kUy7hteFFgFq9wNvbHmG58=", "user_input_form"=>{"user_input"=>"asdf"}, "commit"=>"Save User input form"}
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `pry' for #<Binding:0x007f88b4adca48>):
+  app/controllers/dashboard_controller.rb:8:in `submit'
+
+
+  Rendered /Users/jthullbery/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/jthullbery/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/jthullbery/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/jthullbery/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.7ms)
+
+
+Started POST "/submit_user_input" for 127.0.0.1 at 2014-05-20 14:39:23 -0400
+Processing by DashboardController#submit as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gC8EHS+YB+LRrMVqEAw51kUy7hteFFgFq9wNvbHmG58=", "user_input_form"=>{"user_input"=>"asdf"}, "commit"=>"Save User input form"}
+  Rendered dashboard/submit.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 272ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2014-05-20 14:39:23 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-20 14:39:23 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-20 14:39:23 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-20 14:39:23 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-20 14:39:23 -0400
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2014-05-20 14:39:23 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-20 14:39:23 -0400
+
+
+Started POST "/submit_user_input" for 127.0.0.1 at 2014-05-20 14:39:39 -0400
+Processing by DashboardController#submit as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gC8EHS+YB+LRrMVqEAw51kUy7hteFFgFq9wNvbHmG58=", "user_input_form"=>{"user_input"=>"banana"}, "commit"=>"Save User input form"}
+  Rendered dashboard/submit.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 334ms (Views: 3.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2014-05-20 14:39:40 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-20 14:39:40 -0400
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2014-05-20 14:39:40 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-20 14:39:40 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-20 14:39:40 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-20 14:39:40 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-20 14:39:40 -0400
+
+
+Started POST "/submit_user_input" for 127.0.0.1 at 2014-05-20 14:45:16 -0400
+Processing by DashboardController#submit as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gC8EHS+YB+LRrMVqEAw51kUy7hteFFgFq9wNvbHmG58=", "user_input_form"=>{"user_input"=>"banana"}, "commit"=>"Save User input form"}
+  Rendered dashboard/_results.html.erb (0.5ms)
+  Rendered dashboard/submit.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 148329ms (Views: 58.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/submit_user_input" for 127.0.0.1 at 2014-05-20 14:47:44 -0400
+Processing by DashboardController#submit as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gC8EHS+YB+LRrMVqEAw51kUy7hteFFgFq9wNvbHmG58=", "user_input_form"=>{"user_input"=>"banana"}, "commit"=>"Save User input form"}
+  Rendered dashboard/_results.html.erb (0.3ms)
+  Rendered dashboard/submit.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 1422ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2014-05-20 14:47:46 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-20 14:47:46 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-20 14:47:46 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-20 14:47:46 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-20 14:47:46 -0400
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2014-05-20 14:47:46 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-20 14:47:46 -0400
+
+
+Started POST "/submit_user_input" for 127.0.0.1 at 2014-05-20 14:47:57 -0400
+Processing by DashboardController#submit as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gC8EHS+YB+LRrMVqEAw51kUy7hteFFgFq9wNvbHmG58=", "user_input_form"=>{"user_input"=>"banana"}, "commit"=>"Save User input form"}
+  Rendered dashboard/_results.html.erb (0.6ms)
+  Rendered dashboard/submit.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 6426ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2014-05-20 14:48:03 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-20 14:48:03 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-20 14:48:03 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-20 14:48:03 -0400
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2014-05-20 14:48:03 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-20 14:48:03 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-20 14:48:03 -0400
